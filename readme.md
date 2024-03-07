@@ -25,9 +25,6 @@ Mon portfolio est construit avec les technologies les plus innovantes du moment.
 - **JAVASCRIPT :**Langage de programmation côté client pour interactivité sur les pages web.
 - **GitHub Pages :**Pour héberger ce portfolio de manière simple et gratuite.
 
-## 📌 Comment me Contacter
-
-Vous souhaitez discuter de projets, d'opportunités professionnelles ou simplement discuter de technologie ? N'hésitez pas à me contacter :
 
 - **Email :** [obiangprostony1@gmail.com](mailto:obiangprostony1@gmail.com)
 - **LinkedIn :** [obiang essone prossotny](https://www.linkedin.com/mynetwork/)
