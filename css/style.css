@@ -1,0 +1,490 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@font-face {
+    font-family: 'Open'; /* Le nom que vous voulez donner à la police */
+    src: url('../asset/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+}
+html{
+	font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+body,section{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    background-color: #fafafa;
+    font-family: 'Open',sans-serif;
+    font-size: 1.6rem;
+}
+section{
+    height: 100vh;
+    width: 80%;
+    
+    
+}
+
+nav{
+    background-color: #fafafa;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    height: 6rem;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 9;
+
+}
+
+nav,.arrow{
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.293));
+}
+h1,h2,h3,h4,ul,ol,p{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: 300;
+}
+
+
+.acceuil{
+    background-image: url('./home-hero.jpg');
+    background-position: center;
+    background-size: 100%;
+    padding: 10%;
+    height: 55vh;
+   
+    opacity: 1;
+}
+.create{
+   background-color: #fafafa;
+  
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+.error {
+    background-color: #ffcccc;
+}
+.red{
+    background-color: #dd5347;
+    color: #fafafa;
+}
+.white{
+    color: #fafafa;
+}
+.blue{
+    color: #fafafa;
+    background-color: rgb(30, 107, 207);
+    width: 22rem;
+}
+a{
+    color: inherit;
+}
+.button{
+    text-align: center;
+    line-height: 6rem;
+    display: inline-block;
+    height: 6rem;
+    width: 18rem;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #fafafa;
+    filter:none;
+    transition: filter 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.button:hover{
+    filter: brightness(0.8);
+  
+}
+
+.buttonred{
+    text-align: center;
+    line-height: 6rem;
+    display: inline-block;
+    height: 6rem;
+    width: 18rem;
+    margin: 0;
+    padding: 0;
+    color: #fafafa;
+    border: none;
+    background-color: #dd5347;
+    filter:none;
+    transition: filter 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.buttonred:hover{
+    filter: brightness(0.8);
+  
+}
+
+.buttonredarrow{
+    text-align: center;
+    line-height: 7rem;
+    display: inline-block;
+    height: 6rem;
+    width: 6rem;
+    margin: 0;
+    border-radius: 50%;
+    padding: 0;
+    color: #fafafa;
+    border: none;
+    background-color: #dd5347;
+    filter:none;
+    transition: filter 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.buttonredarrow:hover{
+    filter: brightness(0.8);
+  
+}
+
+button{
+    text-align: center;
+    line-height: 5.5rem;
+    display: inline-block;
+    height: 6rem;
+    width: 18rem;
+    margin: 0;
+    padding: 0;
+    color: #fafafa;
+    border: none;
+    background-color: #dd5347;
+    filter:none;
+    transition: filter 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+button:hover{
+    filter: brightness(0.8);
+  
+}
+
+
+.logo{
+ display: flex;
+ align-items: center;
+ margin-left: 1rem;
+}
+.log{
+    display: flex;
+   
+    margin-left: 1rem;
+   }
+
+.log img{
+    margin: 0 .5rem;
+}
+
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.arrow{
+    background-color: #dd5347;
+    width: 6rem;
+    border-radius: 100%;
+
+}
+
+.change{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 67rem;
+    left: -1rem;
+}
+.mainbutton{
+    margin-top: 1.5rem;
+}
+.logog{
+    color: rgb(132, 132, 132);
+    font-weight: 700;
+    margin-left: .5rem;
+    font-size: 1.5rem;
+}
+
+.create{
+    width: 100%;
+    opacity: 1;
+    
+}
+
+
+.trlogin{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 5rem;
+    height: 93vh;
+}
+.homepage{
+   
+    width: 100%;
+    position: absolute;
+    z-index: 25;
+    top: 0;
+    height: 100vh;
+}
+.createaccount{
+    border: solid .1rem rgb(200, 200, 200);
+    margin:0% 20% ;
+    height: 45rem;
+    margin-top: 3rem;
+}
+.loginaccount{
+    border: solid .1rem rgb(200, 200, 200);
+    margin:0% 20% ;
+    height: 30rem;
+    margin-top: 18rem;
+}
+.down{
+    padding-top: 3rem;
+}
+.formulaire{
+    
+   display: block;
+    margin-left: 2%;
+}
+label{
+    font-size: 1.5rem;
+   display: block;
+}
+input{
+    border: none;
+    box-sizing: border-box;
+    height: 4rem;
+    width: 97%;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-bottom: .1rem solid #D9D9D9;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    background-color: rgb(249, 255, 127); 
+    box-sizing: border-box;
+    border-bottom: .1rem solid rgb(213, 218, 110);
+}
+.plus{
+    background-color: #fafafa;
+    position: relative;
+    top: -5.1rem;
+    left: 6rem;
+    width: 26rem;
+    text-align: center;
+}
+
+
+.plus2{
+    background-color: #fafafa;
+    position: relative;
+    top: -2.1rem;
+    left: 6rem;
+    width: 50rem;
+    text-align: center;
+}
+.buttonform{
+    margin-top: 1rem;
+    width: auto;
+    text-align: center;
+    }
+    .greenred{
+       
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        margin: 0 35%;
+        }
+    
+   
+    .create h2{
+        
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    .create h3{
+        
+        margin: 0 30%;
+    }
+
+    .login{
+        background-color: #fafafa;
+        width: 100%;
+        position: absolute;
+        height: 93vh;
+        z-index: -1;
+        top: 5rem;
+    }
+
+   .ted{
+    position: relative;
+    top: 8rem;
+   }
+
+   .gmail{
+    font-size: 1.5rem;
+    font-weight: 500;
+  
+    position: relative;
+   
+    top: 2.6rem;
+    left: 7rem;
+
+   }
+
+   .error-message{
+    color: #dd5347;
+   }
+
+   .main{
+    background-color: #fafafa;
+    z-index: 0;
+    width: 100%;
+    top: 0;
+    height: 75rem;
+
+   }
+.ligne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  height: 7em;
+}
+.search{
+    width: 50rem;
+   margin-right: 36.5rem;
+   margin-top: 1rem;
+   background-color: #EAF1FB;
+}
+.flex{
+ 
+}
+.flex div{
+    display: inline-block;
+}
+.flex div:first-child{
+    width: 30rem;
+    
+
+}
+.flex div:last-child{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    width: 119rem;
+    vertical-align: top;
+    height: 65rem;
+}
+.end img{
+    margin: 0 .5rem;
+}
+.homepage{
+    background-color: #F6F8FC;
+}
+.homepage li{
+    list-style: none;
+    font-size: 1.5rem;
+    height: 4rem;
+    vertical-align: center;
+    border-radius: 0px 200px 200px 0px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    
+    padding-left: 5rem;
+}
+.choose{
+    background-color: #D3E3FD;
+    font-weight: 500;
+}
+
+.homepage button{
+    background-color: #C2E7FF;
+    color: #315068;
+    width: 22rem;
+    border-radius: 2rem;
+    margin: 2rem 2rem;
+}
+table.blueTable {
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+  }
+  table{
+    border: none;
+  }
+  
+element.style {
+}
+table.blueTable tr {
+    background: #F6F8FC;
+    border: none;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table.blueTable{
+    background: #F6F8FC;
+    border-spacing: none;
+}
+
+.nombre{
+    text-align: left;
+}
+.object{
+    text-align: right;
+    width: 5%;
+}
+.lemail{
+    color: #535353;
+}
+  table.blueTable td, table.blueTable th {
+    padding: 3px 2px;
+  }
+  table.blueTable tbody td {
+    font-size: 13px;
+  }
+  table.blueTable tr{
+    background: #F6F8FC; border: none;
+  }
+  table.blueTable tfoot td {
+    font-size: 14px;
+  }
+
+  table.blueTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    border: none;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  .check, .fav{
+    width: 1%;
+  }
+  .checkbox{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .favourite{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .mainhead{
+    height: 10rem;
+  }
+
+  .timeset{
+    width: 5rem;
+  }
