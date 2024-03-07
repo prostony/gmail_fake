@@ -13,7 +13,7 @@
 
 ## 🌟 Présentation
 
-Ceci est un projet réaliser durant mon année de BTS SIO en 2 ème année. Le but etait de reproduire la page de Gmail.
+Ceci est un projet réaliser durant mon année de BTS SIO en 2 ème année. Le but etait de reproduire la page de Gmail  qui devais etre la plus realise possible . 
 
 ## 🚀 Technologies Utilisées
 
